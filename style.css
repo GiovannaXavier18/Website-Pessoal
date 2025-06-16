@@ -364,7 +364,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    body {
+  body {
     margin-top: 150px;
   }
 
@@ -375,15 +375,17 @@ footer {
   }
 
   .header-content {
-    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
   }
 
   .navbar {
     justify-content: center;
     padding: 1rem 0;
   }
-}
 
+}
 
 @media (max-width: 600px) {
   #sobre-mim {
